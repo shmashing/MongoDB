@@ -1,0 +1,8 @@
+<h2> So many good quotes! </h2>
+  <% for (var x in htmlquotes){ %>
+    <div class="quote">
+        <p > <%= htmlquotes[x].name %> says: </p>
+        <p > <%= htmlquotes[x].quote %> </p>
+    </div>
+  <% } %>
+
