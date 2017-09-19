@@ -1,0 +1,11 @@
+<h2> Lookit all these good lil foxies: </h2>
+<% for (var i in htmlfoxes){ %>
+  <div class="fox">
+      <p> Fox Name: <%= htmlfoxes[i].name %></p>
+      <p> Fur Color: <%= htmlfoxes[i].fur_color %> </p>
+      <p> Dive Count: <%= htmlfoxes[i].dive_count %> </p>
+      <p> Total kills: <%= htmlfoxes[i].kills %> </p>
+  </div>
+<% } %>
+
+<a href="/foxes/new">Register a new lil foxie</a>
